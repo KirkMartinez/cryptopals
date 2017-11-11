@@ -1,0 +1,2 @@
+watch( 'lib/.*\.rb' )  {|md| system("rspec -I ./lib spec") }
+watch( 'spec/.*_spec\.rb' )  {|md| system("rspec -I ./lib spec") }
